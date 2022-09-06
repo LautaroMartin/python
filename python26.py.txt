@@ -1,0 +1,23 @@
+print("-------------------------------------------------------");
+print("Ejercicio 26");
+print("-------------------------------------------------------");
+
+#Entrada
+
+	print("Ingrese valores: ");
+	num= int (input("tipo de calculo: "));
+	v = int ( input(" Ingrese V: "));
+
+#Proceso
+
+	Funcion = {
+		1: 100*v;
+		2: 100**v;
+		3: 100/v;
+	}
+
+	val = Funcion.get (num,0);
+
+#Salida
+
+	print(val)

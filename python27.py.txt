@@ -1,0 +1,27 @@
+print("-------------------------------------------------------");
+print("Ejercicio 27");
+print("-------------------------------------------------------");
+
+#Entrada
+
+	num= int( input("Ingrese el numero: "));
+
+
+#Proceso
+
+	par_impar ={
+		1:"impar"
+		3:"impar"
+		5:"impar"
+		7:"impar"
+		9:"impar"
+		2:"par"
+		4:"par"
+		6:"par"
+		8:"par"
+		10:"par"
+	}
+
+#Salida
+
+	print(par_impar.get(num, "Numero fuera de rango");

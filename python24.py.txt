@@ -1,0 +1,19 @@
+print("-----------------------------------");
+print("Ejercicio 24");
+print("-----------------------------------");
+
+#Entrada
+
+	money= float( input("Ingrese el sueldo: "));
+	
+
+
+#Proceso
+
+	if money < 1000:
+		mas= money*0.15;
+		money= money+mas;
+
+
+#	print ("\n Salida");
+	print ("El sueldo es ", money)

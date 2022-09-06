@@ -1,0 +1,17 @@
+print("-----------------------------------");
+print("Ejercicio 22");
+print("-----------------------------------");
+
+#Entrada
+
+	print("Ingrese dos numeros");
+	num1 = int( input("1er numero"));
+	num2 = int( input("2do numero"));
+
+#Proceso y salida
+	
+	if num1<num2:
+		print("El numero mayor es", num2);
+	else:
+		print("El numero menor es", num1);
+

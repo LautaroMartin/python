@@ -1,0 +1,16 @@
+print("-----------------------------------");
+print("Ejercicio 23");
+print("-----------------------------------");
+
+#Entrada
+
+	cal= float( input("Ingrese la calificacion: "));
+
+
+#Proceso y salida
+
+	
+	if cal > 10:
+		print ("El alumno desaprobo");
+	else:
+		print ("El alumno a aprobado");

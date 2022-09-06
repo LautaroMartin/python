@@ -1,0 +1,12 @@
+print("------------------------------------");
+print("Ejercicio 21");
+print("------------------------------------");
+
+#Ingreso
+
+	print("Ingrese un numero");
+	x = int (input());
+
+#Proceso
+	if x < 100:	/* Para marcar la estructura del IF, es necesario mantener las sangrias correspondientes*/
+		print ("Numero pequeño");
