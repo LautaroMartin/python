@@ -1,0 +1,12 @@
+print("Trabajo complementario 4")
+print("-----------------------------")
+
+#entrada
+s = float (input ("Ingrese los segundos: "))
+m = float (input ("Ingrese los metros "))
+
+#proceso
+total = float(m/s)
+
+#salida
+print("La velocidad es de:", total, "m/s")
