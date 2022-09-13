@@ -1,0 +1,10 @@
+import math;
+
+print("Ejercicio 5");
+print("-----------------------------------");
+print("Ingrese los GB ");
+gb=float(input());
+mg=gb*1024;
+md=mg/1.44;
+print(md);
+print("EL numero de discos necesarios sea de: ", math.ceil(md));
