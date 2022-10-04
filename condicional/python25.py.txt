@@ -4,11 +4,11 @@ print("-------------------------------------------------------");
 
 #Entrada
 
-	año = int( input("Ingrese el año"));
+	aÃ±o = int( input("Ingrese el aÃ±o"));
 	
 #Salida
-	if (año % 400 == 0) or (año % 4 == 0) and (año % 100 !=0):
-		print (" El año es bisiesto");
+	if (aÃ±o % 400 == 0) or (aÃ±o % 4 == 0) and (aÃ±o % 100 !=0):
+		print (" El aÃ±o es bisiesto");
 	else:
-		print ("El año no es bisiesto");
+		print ("El aÃ±o no es bisiesto");
 
